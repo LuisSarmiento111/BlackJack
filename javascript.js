@@ -107,7 +107,6 @@ function start() {
         } else {
             playerTotalValue += cardValue;
         }
-
     }
     enemyCards[1].hidden = true
     playerTotal.innerHTML = playerTotalValue
