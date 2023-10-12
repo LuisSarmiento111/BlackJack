@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="stylesheet.css">
     <meta charset="UTF-8">
@@ -7,10 +8,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1 style="text-align: center;">Black Jack</h1>
-    <img src="images/cards/card back black.png" id="deck" style="margin-left: 24px; margin-top: 10%; width: 256px;">
+    <div style="text-align: center;" id="startDiv">
+        <br>
+        <button id="start" style="text-align: center; width: 128px;">Start</button>
+    </div>
     <br>
-    <button style="visibility: 0; width: 24px; height: 24px; margin-left: 24px;"></button>
+    <div style="text-align: center;" id="gameDiv" hidden>
+        <button id="retry" style="text-align: center; width: 128px;" hidden=true>Retry</button>
+        <br>
+        <span id="endGame" style="font-size: 48px; color:  white;"></span>
+        <br>
+        <span id="enemyTotal" style="font-size: 42px; color: white;" hidden=true></span>
+        <br>
+        <img src="images/cards/card back black.png" style="width: 204px; border: 0;" id="enemyHiddenCard">
+        <img src="" style="width: 200px; border: 0;" id="enemyCard1">
+        <img src="" style="width: 200px; border: 0;" id="enemyCard2">
+        <img src="" style="width: 200px; border: 0;" id="enemyCard3">
+        <img src="" style="width: 200px; border: 0;" id="enemyCard4">
+        <img src="" style="width: 200px; border: 0;" id="enemyCard5">
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="" style="width: 200px; border: 0;" id="playerCard1">
+        <img src="" style="width: 200px; border: 0;" id="playerCard2">
+        <img src="" style="width: 200px; border: 0;" id="playerCard3">
+        <img src="" style="width: 200px; border: 0;" id="playerCard4">
+        <img src="" style="width: 200px; border: 0;" id="playerCard5">
+        <br>
+        <span id="playerTotal" style="font-size: 42px; color: white;"></span>
+        <br>
+        <button id="hit" style="text-align: center; width: 128px;">Hit</button>
+        <button id="stand" style="text-align: center; width: 128px;">Stand</button>
+    </div>
+    <script src="javascript.js"></script>
 </body>
+
 </html>

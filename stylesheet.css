@@ -1,11 +1,16 @@
 body {
-    background-image: url('images/background.jpg');
-    background-attachment: fixed;
+  background-image: url('images/background.jpg');
+  background-attachment: fixed;
   background-size: cover;
 }
 
-h1{
-    text-align: center;
-    color: white;
-    font-size: 48px;
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 48px;
+}
+
+p {
+  text-align: center;
+  color: white;
 }
